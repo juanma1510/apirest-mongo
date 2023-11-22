@@ -1,0 +1,34 @@
+###
+POST http://localhost:9000/api/products HTTP/1.1
+Content-Type: application/json
+
+{
+    "nameProduct": "perlas chinas",
+    "priceProduct": 70,
+    "desc": "perlas chinas con un dije de la virgen maria"
+}
+
+###
+GET http://localhost:9000/api/products HTTP/1.1
+
+###
+
+GET http://localhost:9000/api/products/655d55db0d2201d6279aa6ac HTTP/1.1
+
+###
+
+PUT http://localhost:9000/api/products/655d55db0d2201d6279aa6ac HTTP/1.1
+Content-Type: application/json
+
+{
+    "nameProduct": "dildo NEGRO",
+    "priceProduct": 100,
+    "desc": "dildo de el tino asprilla hecho a la medida"
+}
+
+###
+
+DELETE http://localhost:9000/api/products/655d55db0d2201d6279aa6ac HTTP/1.1
+
+
+
